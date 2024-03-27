@@ -1,0 +1,5 @@
+{
+  "main_data_path": "dataset/VietnamDatasets.xlsx",
+  "coordinate_path": "dataset/VietnamCoordinateFile.xlsx",
+  "criterion_path": "dataset/VietnamDatasets.xlsx"
+}

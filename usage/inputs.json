@@ -1,0 +1,13 @@
+{
+  "vietnam_path": "dataset/data_vietnam.npz",
+  "indian_path": "dataset/data_indian.npz",
+  "use_de_lgbm": 0,
+  "use_pb_lgbm": 0,
+  "use_bo_lgbm": 0,
+  "process_data_from_scratch": 0,
+  "use_general_model": 0,
+  "explain_results": 0,
+  "do_mann_whiteney_test": 1,
+  "do_geochemical_component_analysis": 0,
+  "do_clustering_analysis": 0
+}

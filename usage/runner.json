@@ -1,0 +1,7 @@
+{
+  "inputs_json_path": "usage/inputs.json",
+  "outputs_json_path": "usage/outputs.json",
+  "config_json_path": "usage/config.json",
+  "data_vietnam_json_path": "usage/data_vietnam.json",
+  "data_indian_json_path": "usage/data_indian.json"
+}

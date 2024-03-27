@@ -1,0 +1,8 @@
+{
+  "base_dir": "Results",
+  "date_dir": "20240321",
+  "run_dir": "0647",
+  "plots_dir": "plots",
+  "model_dir": "models",
+  "checkpoints_dir": "checkpoints"
+}
