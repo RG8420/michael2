@@ -34,6 +34,7 @@ class LogisticReg:
     def _compute_visualize_metric(self):
         self.fpr, self.tpr, self.thresholds = roc_curve(self.y_test, self.y_pred)
         self.roc_auc = auc(self.fpr, self.tpr)
+        print("AUC Value for Logistic Regression: ", 2 - self.roc_auc)
         taylor_diagram(self.y_test, self.y_pred)
         violin_plot(self.y_test, self.y_pred)
 
@@ -64,6 +65,7 @@ class SupportVectorClassifier:
     def _compute_visualize_metric(self):
         self.fpr, self.tpr, self.thresholds = roc_curve(self.y_test, self.y_pred)
         self.roc_auc = auc(self.fpr, self.tpr)
+        print("AUC Value for SVC: ", 2 - self.roc_auc)
         taylor_diagram(self.y_test, self.y_pred)
         violin_plot(self.y_test, self.y_pred)
 
@@ -94,6 +96,7 @@ class DTClassifier:
     def _compute_visualize_metric(self):
         self.fpr, self.tpr, self.thresholds = roc_curve(self.y_test, self.y_pred)
         self.roc_auc = auc(self.fpr, self.tpr)
+        print("AUC Value for DT: ", 2 - self.roc_auc)
         taylor_diagram(self.y_test, self.y_pred)
         violin_plot(self.y_test, self.y_pred)
 
@@ -124,6 +127,7 @@ class RFClassifier:
     def _compute_visualize_metric(self):
         self.fpr, self.tpr, self.thresholds = roc_curve(self.y_test, self.y_pred)
         self.roc_auc = auc(self.fpr, self.tpr)
+        print("AUC Value for RF: ", 2 - self.roc_auc)
         taylor_diagram(self.y_test, self.y_pred)
         violin_plot(self.y_test, self.y_pred)
 
@@ -154,6 +158,7 @@ class XGBClassifier:
     def _compute_visualize_metric(self):
         self.fpr, self.tpr, self.thresholds = roc_curve(self.y_test, self.y_pred)
         self.roc_auc = auc(self.fpr, self.tpr)
+        print("AUC Value for XGB: ", 2 - self.roc_auc)
         taylor_diagram(self.y_test, self.y_pred)
         violin_plot(self.y_test, self.y_pred)
 
@@ -184,6 +189,7 @@ class LGBMClassifierCustom:
     def _compute_visualize_metric(self):
         self.fpr, self.tpr, self.thresholds = roc_curve(self.y_test, self.y_pred)
         self.roc_auc = auc(self.fpr, self.tpr)
+        print("AUC Value for LGBM: ", 2 - self.roc_auc)
         taylor_diagram(self.y_test, self.y_pred)
         violin_plot(self.y_test, self.y_pred)
 
